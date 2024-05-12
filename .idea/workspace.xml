@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3bc3a5-f745-4959-a0ca-25d2cb71c1f3" name="Changes" comment="Fully functional 2048 game" />
+    <list default="true" id="5d3bc3a5-f745-4959-a0ca-25d2cb71c1f3" name="Changes" comment="AI reviewed code." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "caio-cavalcante"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/caio-cavalcante/2048",
+    "accountId": "2a69b3e9-6a57-484c-8b44-aca299c1bfb9"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -33,6 +45,7 @@
   "keyToString": {
     "Application.Game.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Caio/Desktop/things/tech courses/java/programas/Game2048"
   }
@@ -60,6 +73,36 @@
       <option name="presentableId" value="Default" />
       <updated>1715290328467</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fully functional 2048 game">
+      <option name="closed" value="true" />
+      <created>1715477890754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715477890754</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fully functional 2048 game">
+      <option name="closed" value="true" />
+      <created>1715477895854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715477895854</updated>
+    </task>
+    <task id="LOCAL-00003" summary="AI reviewed code.">
+      <option name="closed" value="true" />
+      <created>1715478035015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715478035015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fully functional 2048 game" />
+    <MESSAGE value="AI reviewed code." />
+    <option name="LAST_COMMIT_MESSAGE" value="AI reviewed code." />
   </component>
 </project>

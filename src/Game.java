@@ -10,7 +10,7 @@ public class Game extends JPanel implements KeyListener{
     String gameBoard = game.toString();
 
     public static void setGUI() {
-        frame.setSize(600, 400);
+        frame.setSize(550, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setResizable(false);
