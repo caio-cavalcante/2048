@@ -7,7 +7,6 @@ public class Game extends JPanel implements KeyListener{
     Board game = new Board();
     static Game newGame = new Game();
     static JFrame frame = new JFrame("2048");
-    static Color green;
     String gameBoard = game.toString();
 
     public static void setGUI() {

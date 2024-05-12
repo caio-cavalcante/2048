@@ -28,15 +28,15 @@ public class Board {
     }
 
     public String toString() {
-        String string = "";
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[i].length; j++) {
-                string += board[i][j].toString() + " ";
+        StringBuilder string = new StringBuilder();
+        for (Tile[] tiles : board) {
+            for (Tile tile : tiles) {
+                string.append(tile.toString()).append(" ");
             }
-            string += "\n";
+            string.append("\n");
         }
-        string += "Score: " + score;
-        return string;
+        string.append("Score: ").append(score);
+        return string.toString();
     }
 
     public void spawn() {
@@ -48,26 +48,25 @@ public class Board {
             if (board[row][col].getValue() == 0) {
                 if (x < 0.2) {
                     board[row][col] = new Tile(4);
-                    emptyTile = false;
                 } else {
                     board[row][col] = new Tile(2);
-                    emptyTile = false;
                 }
+                emptyTile = false;
             }
         }
     }
 
     public boolean blackOut() {
         int numTiles = 0;
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[i].length; j++) {
-                if (board[i][j].getValue() > 0){numTiles++;}
+        for (Tile[] tiles : board) {
+            for (Tile tile : tiles) {
+                if (tile.getValue() > 0) {
+                    numTiles++;
+                }
             }
         }
 
-        if (numTiles == 16) {return true;}
-
-        return false;
+        return numTiles == 16;
     }
 
     public boolean gameOver() {
@@ -130,10 +129,7 @@ public class Board {
                 }
             }
         }
-        if (numTiles == 16) {
-            return true;
-        }
-        return false;
+        return numTiles == 16;
     }
 
     public void up() {
